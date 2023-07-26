@@ -1,0 +1,25 @@
+.g-wrapper{
+    margin-top: 2rem;
+
+}
+.g-container{
+    background: var(--blue-gradient);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.g-container .button{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #5a73d7;
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+
+}
+.inner-container{
+    gap: 1rem;
+}
+.inner-container>:nth-child(2){
+    color: rgb(187, 186, 186);
+}
